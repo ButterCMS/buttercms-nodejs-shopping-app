@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ecommerce Site</title>
+</head>
+
+<body>
+    <!-- this will hold the product information -->
+    <div class="product-catalog">
+    </div>
+    <!-- this will allow the user to checkout their selection by calling a POST request to the /checkout endpoint -->
+    <form action="/checkout" method="post">
+        <input type="submit" id="check-out">Check Out</button>
+        <input type="hidden" name="region" value="US" id="form-region">
+    </form>
+    <!-- the jQuery library will help us with DOM operations -->
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
