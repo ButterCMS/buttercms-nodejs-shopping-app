@@ -1,0 +1,22 @@
+.product-catalog {
+    display: flex;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 10px 20px;
+    padding: 10px;
+    border: 1px solid gray;
+    font-family: sans-serif;
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.price {
+    text-align: right;
+}
